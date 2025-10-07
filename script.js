@@ -1,10 +1,10 @@
 // Imagens seguras e otimizadas do Unsplash (tema: cidades inteligentes)
 const imagens = [
-  "https://images.unsplash.com/photo-1716388242554-0f38ad3750de?auto=format&fit=crop&w=1920&q=80", // vias rápidas
+  "https://images.unsplash.com/photo-1620820175338-e7828d458caa?auto=format&fit=crop&w=1920&q=80", // vias rápidas
   "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80", // vias rápidas
-  "https://images.unsplash.com/photo-1581091215367-59ab6c61c173?auto=format&fit=crop&w=1920&q=80", // cidade conectada
+  "https://images.pexels.com/photos/985700/pexels-photo-985700.jpeg?auto=format&fit=crop&w=1920&q=80", // cidade conectada
   "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80", // programadores
-  "https://images.unsplash.com/photo-1614680376408-81e91ffe3d16?auto=format&fit=crop&w=1920&q=80", // semáforo inteligente
+  "https://images.unsplash.com/photo-1674027444636-ce7379d51252?auto=format&fit=crop&w=1920&q=80", // semáforo inteligente
   "https://images.unsplash.com/photo-1623071383293-8f3cba0e2c74?auto=format&fit=crop&w=1920&q=80"  // parada de ônibus moderna
 ];
 
@@ -26,5 +26,6 @@ function trocarImagem() {
 
 trocarImagem(); // define a primeira
 setInterval(trocarImagem, 7000);
+
 
 
