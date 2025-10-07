@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -44,6 +44,7 @@ body {
   color: var(--texto-claro);
   text-decoration: none;
   transition: color 0.3s;
+  font-weight: 500;
 }
 
 .nav-links a:hover {
@@ -52,7 +53,7 @@ body {
 
 /* HERO */
 .hero {
-  background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1581092334883-d80e1f7b54e7?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -106,6 +107,14 @@ body {
   font-size: 2rem;
 }
 
+/* SOBRE */
+.sobre p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* LISTA */
 .section ul {
   list-style: none;
   padding-left: 0;
