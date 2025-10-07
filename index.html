@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Synalis — Tecnologia e Inovação em Cidades Inteligentes">
+  <title>Synalis — Tecnologia & Inovação</title>
+  <style>
+    :root {
+      --cor-primaria: #0dc986;
+      --cor-secundaria: #0077c8;
+      --cor-fundo: #0a0f0d;
+      --cor-texto: #e0e0e0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      color: var(--cor-texto);
+      background-color: var(--cor-fundo);
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      background: rgba(10,15,13,0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      z-index: 1000;
+    }
+
+    header img {
+      height: 45px;
+    }
+
+    nav a {
+      color: var(--cor-texto);
+      text-decoration: none;
+      margin-left: 25px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--cor-primaria);
+    }
+
+    section {
+      padding: 100px 15%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #inicio {
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+    }
+
+    #inicio h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    #inicio p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    #sobre {
+      background: #101816;
+      line-height: 1.8;
+    }
+
+    #proposta {
+      background: linear-gradient(135deg, var(--cor-primaria), var(--cor-secundaria));
+      color: #fff;
+    }
+
+    #proposta ul {
+      list-style: none;
+      font-size: 1.1em;
+    }
+
+    #proposta li {
+      margin-bottom: 15px;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    #proposta li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #fff;
+    }
+
+    #contato {
+      background: #0b1412;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #070c0b;
+      font-size: 0.9em;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--cor-primaria);
+      color: #fff;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background: var(--cor-secundaria);
+    }
+
+    @media (max-width: 768px) {
+      section { padding: 80px 8%; }
+      header { padding: 10px 25px; }
+      nav a { margin-left: 15px; font-size: 0.9em; }
+      #inicio h1 { font-size: 2em; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Synalis Logo">
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#proposta">Pro
