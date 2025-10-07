@@ -1,5 +1,6 @@
 // Imagens seguras e otimizadas do Unsplash (tema: cidades inteligentes)
 const imagens = [
+  "https://unsplash.com/pt-br/fotografias/um-par-de-semaforos-pendurados-em-um-poste-de-metal-HsAJNGobIBw?auto=format&fit=crop&w=1920&q=80", // vias rápidas
   "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80", // vias rápidas
   "https://images.unsplash.com/photo-1581091215367-59ab6c61c173?auto=format&fit=crop&w=1920&q=80", // cidade conectada
   "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80", // programadores
@@ -25,3 +26,4 @@ function trocarImagem() {
 
 trocarImagem(); // define a primeira
 setInterval(trocarImagem, 7000);
+
