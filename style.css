@@ -54,7 +54,7 @@ body {
 /* HERO */
 .hero {
   background: url('https://images.unsplash.com/photo-1581092334883-d80e1f7b54e7?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
-  height: 150vh;
+  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,6 +138,7 @@ footer {
   background: rgba(0, 0, 0, 0.6);
   font-size: 0.9rem;
 }
+
 
 
 
