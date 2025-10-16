@@ -7,10 +7,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hero -->
+  <!-- Cabeçalho fixo -->
+  <header>
+    <div class="logo">
+      <img src="img/logosff.png" alt="Synalis Logo">
+      <span>Synalis</span>
+    </div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#proposta">Proposta de Valor</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero com imagens dinâmicas -->
   <section class="hero">
-    <img src="img/logosff.png" alt="Synalis Logo" class="hero-logo">
-    <h1>Mais do que apenas tecnologia.<br>Criamos inteligência que move cidades, transforma a vida urbana e abre caminho para um futuro mais conectado e sustentável.</h1>
+    <div class="slider">
+      <img src="https://images.unsplash.com/photo-1581094794329-cdf9a3ad1f3b" alt="Cidade inteligente" class="active">
+      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Programadores trabalhando">
+      <img src="https://images.unsplash.com/photo-1527443224154-c4a5e62b0f97" alt="Semáforo inteligente">
+      <img src="https://images.unsplash.com/photo-1577434043488-f4e9a0a09d7b" alt="Parada de ônibus moderna">
+      <img src="https://images.unsplash.com/photo-1518300673319-41e36d7c0906" alt="Vias rápidas conectadas">
+    </div>
+    <div class="hero-content">
+      <img src="img/logosff.png" alt="Logo Synalis" class="hero-logo">
+      <h1>Mais do que apenas tecnologia.</h1>
+      <p>Criamos inteligência que move cidades, transforma a vida urbana e abre caminho para um futuro mais conectado e sustentável.</p>
+    </div>
   </section>
 
   <!-- Sobre -->
@@ -29,19 +52,8 @@
     </p>
   </section>
 
-  <!-- Imagens dinâmicas -->
-  <section class="galeria">
-    <div class="slider">
-      <img src="https://images.unsplash.com/photo-1581094794329-cdf9a3ad1f3b" alt="Cidade inteligente">
-      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Programadores trabalhando">
-      <img src="https://images.unsplash.com/photo-1527443224154-c4a5e62b0f97" alt="Semáforo inteligente">
-      <img src="https://images.unsplash.com/photo-1577434043488-f4e9a0a09d7b" alt="Parada de ônibus moderna">
-      <img src="https://images.unsplash.com/photo-1518300673319-41e36d7c0906" alt="Vias rápidas conectadas">
-    </div>
-  </section>
-
   <!-- Proposta de Valor -->
-  <section class="proposta">
+  <section id="proposta" class="proposta">
     <h2>Proposta de Valor</h2>
     <ul>
       <li>🚦 Mobilidade inteligente: soluções que conectam veículos, pessoas e cidades.</li>
