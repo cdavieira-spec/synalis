@@ -5,7 +5,8 @@ const imagens = [
   "https://cdn.pixabay.com/photo/2019/02/11/02/05/smart-home-3988583_1280.jpg?auto=format&fit=crop&w=1920&q=80", // cidade conectada
   "https://cdn.pixabay.com/photo/2015/08/05/10/23/traffic-light-876056_1280.jpg?auto=format&fit=crop&w=1920&q=80", // programadores
   "https://images.unsplash.com/photo-1674027444636-ce7379d51252?auto=format&fit=crop&w=1920&q=80", // semáforo inteligente
-  "https://images.unsplash.com/photo-1716436329475-4c55d05383bb?auto=format&fit=crop&w=1920&q=80"  // parada de ônibus moderna
+  "https://cdn.pixabay.com/photo/2015/08/05/10/24/traffic-light-876061_1280.jpg?auto=format&fit=crop&w=1920&q=80"  // sinal verde
+  "https://cdn.pixabay.com/photo/2012/10/14/20/29/chicago-61213_1280.jpg?auto=format&fit=crop&w=1920&q=80"  // esfera chicago
 ];
 
 // Pré-carrega as imagens
@@ -26,6 +27,7 @@ function trocarImagem() {
 
 trocarImagem(); // define a primeira
 setInterval(trocarImagem, 9000);
+
 
 
 
