@@ -31,7 +31,7 @@ body {
 }
 
 .logo {
-  height: 20px;
+  height: 100px;
 }
 
 .nav-links {
@@ -138,5 +138,6 @@ footer {
   background: rgba(0, 0, 0, 0.6);
   font-size: 0.9rem;
 }
+
 
 
