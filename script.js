@@ -1,14 +1,20 @@
-// Alterna imagens no HERO
-let current = 0;
-const images = document.querySelectorAll('.slider img');
+const images = [
+  "https://cdn.pixabay.com/photo/2021/05/19/06/13/smartphone-6265046_1280.jpg?auto=format&fit=crop&w=1920&q=80",
+  "https://cdn.pixabay.com/photo/2019/05/07/00/07/eye-4184700_1280.jpg?auto=format&fit=crop&w=1920&q=80",
+  "https://cdn.pixabay.com/photo/2019/02/11/02/05/smart-home-3988583_1280.jpg?auto=format&fit=crop&w=1920&q=80",
+  "https://cdn.pixabay.com/photo/2015/08/05/10/23/traffic-light-876056_1280.jpg?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1674027444636-ce7379d51252?auto=format&fit=crop&w=1920&q=80",
+  "https://cdn.pixabay.com/photo/2015/08/05/10/24/traffic-light-876061_1280.jpg?auto=format&fit=crop&w=1920&q=80",
+  "https://cdn.pixabay.com/photo/2012/10/14/20/29/chicago-61213_1280.jpg?auto=format&fit=crop&w=1920&q=80"
+];
 
-function changeImage() {
-  images[current].classList.remove('active');
-  current = (current + 1) % images.length;
-  images[current].classList.add('active');
+let index = 0;
+const hero = document.querySelector(".hero");
+
+function changeBackground() {
+  hero.style.backgroundImage = `url(${images[index]})`;
+  index = (index + 1) % images.length;
 }
 
-if (images.length > 0) {
-  images[0].classList.add('active');
-  setInterval(changeImage, 5000);
-}
+changeBackground();
+setInterval(changeBackground, 5000);
