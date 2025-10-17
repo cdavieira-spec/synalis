@@ -306,5 +306,41 @@ footer {
   font-size: 0.95rem; /* menor e mais equilibrado visualmente */
   opacity: 0.9;
 }
+.sobre-cta {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: var(--cor-principal);
+  font-weight: 500;
+}
+/* === SEÇÃO SOBRE — ESTILO MODERNO === */
+#sobre {
+  text-align: center;
+  font-size: 1.15rem; /* aumento leve do tamanho da fonte */
+  font-family: 'Poppins', 'Segoe UI', sans-serif; /* estilo moderno e elegante */
+  line-height: 1.8;
+  color: #e8f6f0; /* tom claro, mais suave que o branco puro */
+  letter-spacing: 0.3px;
+}
+
+/* Parágrafo de chamada à ação */
+.sobre-cta {
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--cor-principal);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Título "Sobre" harmonizado com o novo estilo */
+#sobre h2 {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  color: var(--cor-principal);
+  margin-bottom: 1.5rem;
+}
+
 
 
