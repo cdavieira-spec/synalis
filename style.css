@@ -224,3 +224,35 @@ footer {
   text-align: center;
 }
 
+/* LOGO TEXTO NO CABEÇALHO — LADO A LADO */
+.logo-container {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.logo-principal {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--cor-principal);
+  letter-spacing: 1px;
+}
+
+.logo-secundario {
+  font-size: 1.1rem;
+  color: #66ffcc; /* tom parecido, ligeiramente mais claro */
+  font-weight: 500;
+}
+
+/* LOGO NA HOME */
+.hero-logo {
+  width: 200px; /* aumentei o tamanho */
+  margin-bottom: 1rem;
+}
+
+/* DIMINUIR TEXTO NA HOME */
+.hero p {
+  margin: 0.5rem 0;
+  font-size: 1rem; /* antes era 1.2rem */
+}
+
