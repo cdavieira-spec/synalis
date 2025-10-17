@@ -137,7 +137,7 @@ body {
 }
 
 .contato-icon {
-  width: 80px;
+  width: 150px;
   margin: 1rem 0;
 }
 
@@ -341,6 +341,7 @@ footer {
   color: var(--cor-principal);
   margin-bottom: 1.5rem;
 }
+
 
 
 
