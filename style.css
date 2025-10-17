@@ -194,3 +194,33 @@ footer {
     font-size: 1rem;
   }
 }
+/* LOGO TEXTO NO CABEÇALHO */
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-text .principal {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--cor-principal);
+}
+
+.logo-text .sub {
+  font-size: 0.9rem;
+  color: var(--texto-claro);
+  letter-spacing: 1px;
+}
+
+/* LOGO NA HOME */
+.hero-logo {
+  width: 160px;
+  margin-bottom: 1rem;
+}
+
+/* CENTRALIZAR SEÇÃO SOBRE */
+#sobre {
+  text-align: center;
+}
+
