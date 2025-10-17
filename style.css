@@ -341,6 +341,23 @@ footer {
   color: var(--cor-principal);
   margin-bottom: 1.5rem;
 }
+.lang-select {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.lang-select img {
+  width: 22px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.lang-select img:hover {
+  transform: scale(1.1);
+}
+
 
 
 
