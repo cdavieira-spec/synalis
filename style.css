@@ -316,7 +316,7 @@ footer {
 /* === SEÇÃO SOBRE — ESTILO MODERNO === */
 #sobre {
   text-align: center;
-  font-size: 1.15rem; /* aumento leve do tamanho da fonte */
+  font-size: 1.1rem; /* aumento leve do tamanho da fonte */
   font-family: 'Poppins', 'Segoe UI', sans-serif; /* estilo moderno e elegante */
   line-height: 1.8;
   color: #e8f6f0; /* tom claro, mais suave que o branco puro */
@@ -341,6 +341,7 @@ footer {
   color: var(--cor-principal);
   margin-bottom: 1.5rem;
 }
+
 
 
 
