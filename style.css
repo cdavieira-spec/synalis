@@ -255,4 +255,56 @@ footer {
   margin: 0.5rem 0;
   font-size: 1rem; /* antes era 1.2rem */
 }
+/* === AJUSTES FINAIS DO CABEÇALHO === */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.logo-principal {
+  font-size: 2.2rem;   /* um pouco maior para destacar */
+  font-weight: 700;
+  color: var(--cor-principal);
+  letter-spacing: 1px;
+}
+
+.logo-secundario {
+  font-size: 1.1rem;
+  color: #66ffcc;      /* tom semelhante ao principal */
+  font-weight: 500;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+}
+
+/* Ajustes visuais no mobile */
+@media (max-width: 768px) {
+  .logo-container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo-principal {
+    font-size: 1.8rem;
+  }
+
+  .logo-secundario {
+    font-size: 0.95rem;
+    display: block;
+    margin-top: 2px;
+  }
+}
+
+/* === HOME (hero) === */
+.hero-logo {
+  width: 220px; /* aumento leve para destaque */
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 0.95rem; /* menor e mais equilibrado visualmente */
+  opacity: 0.9;
+}
+
 
