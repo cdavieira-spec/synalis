@@ -357,6 +357,48 @@ footer {
 .lang-select img:hover {
   transform: scale(1.1);
 }
+/* === MENU MOBILE === */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: var(--cor-principal);
+  cursor: pointer;
+}
+
+/* Esconde o menu por padrão no mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.95);
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+    gap: 1.2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+  }
+
+  .lang-select {
+    justify-content: center;
+  }
+}
 
 
 
