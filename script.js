@@ -15,3 +15,10 @@ setInterval(() => {
   hero.style.backgroundImage = `url('${imagens[index]}')`;
   index = (index + 1) % imagens.length;
 }, 6000);
+// === MENU MOBILE ===
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+});
